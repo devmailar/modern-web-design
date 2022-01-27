@@ -12,6 +12,10 @@ html {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 :root {
   --heading-font-size: 6rem;
   --heading-font-size-600: 4rem;
@@ -83,19 +87,41 @@ header {
       font-family: "Poppins", sans-serif;
 
       a {
-        background-color: rgb(44, 44, 44);
+        background-color: rgb(12, 12, 12);
         color: rgb(255, 250, 250);
+        box-shadow: 1px 3px 1.5px rgb(63, 116, 95);
         text-decoration: none;
         margin: 0 0.2rem;
-        padding: 0.9rem 2rem;
-        border-radius: 45px;
+        padding: 1rem 2rem;
+        border-radius: 50px 0 150px 0;
       }
     }
   }
 }
 
-section {
+footer {
+  display: none;
+  position: fixed;
+  margin: 0 auto;
+  bottom: 0;
   background-color: rgb(12, 12, 12);
+  width: 100%;
+
+  .boot {
+    font-size: 2rem;
+    color: white;
+    float: left;
+    margin-left: 5rem;
+    margin: 1rem 5rem;
+
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 2rem;
+      color: white;
+      float: left;
+      margin-left: 5rem;
+    }
+  }
 }
 
 @media screen and (max-width: 1800px) {
@@ -133,6 +159,14 @@ section {
 
 @media screen and (max-width: 600px) {
   header {
+    nav {
+      .spacing {
+        h1 {
+          font-size: 2rem;
+          margin: 0 2rem;
+        }
+      }
+    }
     .container {
       margin: 3rem 2rem !important;
 
