@@ -63,10 +63,10 @@ header nav .spacing h1 {
 }
 
 header nav .spacing #mode {
+  position: absolute;
   font-family: "Poppins", sans-serif;
   background-color: transparent;
   color: snow;
-  margin: 0 1rem;
   border: none;
   border-radius: 5px;
 }

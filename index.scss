@@ -61,10 +61,10 @@ header {
       }
 
       #mode {
+        position: absolute;
         font-family: "Poppins", sans-serif;
         background-color: transparent;
         color: rgb(255, 250, 250);
-        margin: 0 1rem;
         border: none;
         border-radius: 5px;
       }
