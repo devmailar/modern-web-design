@@ -66,9 +66,8 @@ header nav .spacing #mode {
   font-family: "Poppins", sans-serif;
   background-color: transparent;
   color: snow;
-  margin: 0 0.2rem;
+  margin: 0 1rem;
   border: none;
-  padding: 1rem 2rem;
   border-radius: 5px;
 }
 
