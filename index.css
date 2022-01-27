@@ -224,7 +224,7 @@ footer .boot h1 {
     margin: 0.7rem 2rem;
   }
   header .container {
-    margin: 3rem 2rem !important;
+    margin: 0 2rem !important;
   }
   header .container h1 {
     font-size: var(--heading-font-size-ios) !important;
