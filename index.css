@@ -67,30 +67,61 @@ header nav .spacing ul li {
   color: #a7bbb3;
 }
 
+header .container {
+  margin: 10rem 20rem;
+}
+
 header .container h1 {
   font-family: "Poppins", sans-serif;
   font-size: var(--heading-font-size);
-  margin: 10rem 5rem;
+  width: 80rem;
 }
 
 header .container h1 span {
   color: #3f745f;
 }
 
+header .container .buttons {
+  margin: 2rem auto;
+  font-family: "Poppins", sans-serif;
+}
+
+header .container .buttons a {
+  background-color: #2c2c2c;
+  color: snow;
+  text-decoration: none;
+  margin: 0 0.2rem;
+  padding: 0.9rem 2rem;
+  border-radius: 45px;
+}
+
 section {
   background-color: #0c0c0c;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1440px) {
+  .container {
+    margin: 3rem 2rem !important;
+  }
+  .container h1 {
+    font-size: var(--heading-font-size-600) !important;
+    width: auto !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   header nav {
     padding: 2rem 0 5rem 0;
   }
   header nav .spacing ul {
     display: none;
   }
+  .container {
+    margin: 3rem 2rem !important;
+  }
   .container h1 {
     font-size: var(--heading-font-size-600) !important;
-    margin: 3rem 2rem !important;
+    width: auto !important;
   }
 }
 /*# sourceMappingURL=index.css.map */

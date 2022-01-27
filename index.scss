@@ -64,13 +64,29 @@ header {
   }
 
   .container {
+    margin: 10rem 20rem;
+
     h1 {
       font-family: "Poppins", sans-serif;
       font-size: var(--heading-font-size);
-      margin: 10rem 5rem;
+      width: 80rem;
 
       span {
         color: rgb(63, 116, 95);
+      }
+    }
+
+    .buttons {
+      margin: 2rem auto;
+      font-family: "Poppins", sans-serif;
+
+      a {
+        background-color: rgb(44, 44, 44);
+        color: rgb(255, 250, 250);
+        text-decoration: none;
+        margin: 0 0.2rem;
+        padding: 0.9rem 2rem;
+        border-radius: 45px;
       }
     }
   }
@@ -80,7 +96,18 @@ section {
   background-color: rgb(12, 12, 12);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1440px) {
+  .container {
+    margin: 3rem 2rem !important;
+
+    h1 {
+      font-size: var(--heading-font-size-600) !important;
+      width: auto !important;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
   header {
     nav {
       padding: 2rem 0 5rem 0;
@@ -92,9 +119,11 @@ section {
     }
   }
   .container {
+    margin: 3rem 2rem !important;
+
     h1 {
       font-size: var(--heading-font-size-600) !important;
-      margin: 3rem 2rem !important;
+      width: auto !important;
     }
   }
 }
