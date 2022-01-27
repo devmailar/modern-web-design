@@ -192,8 +192,12 @@ footer .boot h1 {
 }
 
 @media screen and (max-width: 1800px) {
+  nav .spacing {
+    max-width: 1500px !important;
+  }
   .container {
-    margin: 3rem 2rem !important;
+    margin: 10rem 15rem !important;
+    width: auto !important;
   }
   .container h1 {
     font-size: var(--heading-font-size-600) !important;
@@ -201,9 +205,18 @@ footer .boot h1 {
   }
 }
 
+@media screen and (max-width: 1500px) {
+  nav .spacing {
+    max-width: 1200px !important;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   header nav {
     padding: 0.8rem 0 5rem 0;
+  }
+  header nav .spacing {
+    max-width: 950px !important;
   }
   header nav .spacing ul {
     display: none;

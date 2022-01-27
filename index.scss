@@ -183,12 +183,26 @@ footer {
 }
 
 @media screen and (max-width: 1800px) {
+  nav {
+    .spacing {
+      max-width: 1500px !important;
+    }
+  }
   .container {
-    margin: 3rem 2rem !important;
+    margin: 10rem 15rem !important;
+    width: auto !important;
 
     h1 {
       font-size: var(--heading-font-size-600) !important;
       width: 50rem !important;
+    }
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  nav {
+    .spacing {
+      max-width: 1200px !important;
     }
   }
 }
@@ -198,6 +212,8 @@ footer {
     nav {
       padding: 0.8rem 0 5rem 0;
       .spacing {
+        max-width: 950px !important;
+
         ul {
           display: none;
         }
