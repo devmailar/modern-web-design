@@ -162,20 +162,20 @@ footer {
   position: fixed;
   margin: 0 auto;
   bottom: 0;
-  background-color: rgb(12, 12, 12);
+  background-color: transparent;
   width: 100%;
 
   .boot {
     font-size: 2rem;
-    color: white;
+    color: rgb(255, 250, 250);
     float: left;
     margin-left: 5rem;
     margin: 1rem 5rem;
 
     h1 {
       font-family: "Poppins", sans-serif;
-      font-size: 1.5rem;
-      color: white;
+      font-size: 1.2rem;
+      color: rgb(12, 12, 12);
       float: left;
       margin-left: 5rem;
     }

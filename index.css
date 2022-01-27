@@ -171,13 +171,13 @@ footer {
   position: fixed;
   margin: 0 auto;
   bottom: 0;
-  background-color: #0c0c0c;
+  background-color: transparent;
   width: 100%;
 }
 
 footer .boot {
   font-size: 2rem;
-  color: white;
+  color: snow;
   float: left;
   margin-left: 5rem;
   margin: 1rem 5rem;
@@ -185,8 +185,8 @@ footer .boot {
 
 footer .boot h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
-  color: white;
+  font-size: 1.2rem;
+  color: #0c0c0c;
   float: left;
   margin-left: 5rem;
 }
