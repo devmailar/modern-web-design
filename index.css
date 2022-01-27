@@ -20,6 +20,14 @@ html {
   --heading-font-size-desktop: 6rem;
 }
 
+.container {
+  top: 0;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  height: 60rem;
+}
+
 header nav {
   font-family: "Poppins", sans-serif;
   padding: 1.5rem 0;
@@ -59,14 +67,6 @@ header nav .spacing ul li {
   color: #a7bbb3;
 }
 
-header .container {
-  top: 0;
-  max-width: 1400px;
-  width: 100%;
-  margin: 0 auto;
-  height: 60rem;
-}
-
 header .container h1 {
   font-family: "Poppins", sans-serif;
   font-size: var(--heading-font-size);
@@ -75,6 +75,10 @@ header .container h1 {
 
 header .container h1 span {
   color: #3f745f;
+}
+
+section {
+  background-color: #0c0c0c;
 }
 
 @media screen and (max-width: 800px) {
