@@ -1,5 +1,7 @@
 body {
   background-color: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 html {
@@ -25,12 +27,25 @@ a {
   --heading-font-size-desktop: 6rem;
 }
 
+.transition {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .dark {
   background-color: #0c0c0c !important;
 }
 
 .dark h1 {
-  color: white;
+  color: white !important;
+}
+
+.dark button {
+  color: white !important;
+}
+
+.dark li {
+  color: white !important;
 }
 
 .container {
@@ -44,7 +59,7 @@ a {
 header nav {
   font-family: "Poppins", sans-serif;
   padding: 1.5rem 0;
-  background-color: #0c0c0c;
+  background-color: transparent;
   top: 0;
 }
 
@@ -57,16 +72,16 @@ header nav .spacing {
 
 header nav .spacing h1 {
   font-size: 2rem;
-  color: white;
+  color: #0c0c0c;
   float: left;
   margin-left: 5rem;
 }
 
 header nav .spacing #mode {
-  position: absolute;
   font-family: "Poppins", sans-serif;
   background-color: transparent;
-  color: snow;
+  color: #0c0c0c;
+  font-weight: bold;
   border: none;
   border-radius: 5px;
 }
@@ -85,8 +100,8 @@ header nav .spacing ul {
 
 header nav .spacing ul li {
   font-size: 1.5rem;
-  margin: 0.5rem 1rem;
-  color: #a7bbb3;
+  margin: -1rem 1rem;
+  color: #0c0c0c;
 }
 
 header .container {
@@ -204,5 +219,10 @@ footer .boot h1 {
     font-size: var(--heading-font-size-ios) !important;
     width: auto !important;
   }
+}
+
+button {
+  border: none;
+  background-color: transparent;
 }
 /*# sourceMappingURL=index.css.map */

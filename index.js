@@ -3,4 +3,6 @@ let bod = document.querySelector("body")
 
 switcher.addEventListener("click", function () {
   bod.classList.toggle("dark")
+  bod.classList.toggle("transition")
+
 })
