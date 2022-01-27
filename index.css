@@ -48,6 +48,21 @@ a {
   color: white !important;
 }
 
+.dark .buttons a {
+  background-color: snow !important;
+  color: black !important;
+  font-weight: bold;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.dark .buttons a:hover {
+  background-color: #0f0f0f !important;
+  color: snow !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .container {
   top: 0;
   max-width: 1400px;
@@ -59,13 +74,10 @@ a {
 header nav {
   font-family: "Poppins", sans-serif;
   padding: 1.5rem 0;
-  background-color: transparent;
-  top: 0;
 }
 
 header nav .spacing {
-  top: 0;
-  max-width: 1800px;
+  max-width: 1600px;
   width: 100%;
   margin: 0 auto;
 }
@@ -74,7 +86,6 @@ header nav .spacing h1 {
   font-size: 2rem;
   color: #0c0c0c;
   float: left;
-  margin-left: 5rem;
 }
 
 header nav .spacing #mode {
@@ -100,7 +111,7 @@ header nav .spacing ul {
 
 header nav .spacing ul li {
   font-size: 1.5rem;
-  margin: -1rem 1rem;
+  margin: -0.8rem 1rem;
   color: #0c0c0c;
 }
 
@@ -131,7 +142,7 @@ header .container .buttons a {
           box-shadow: 0px 5px 5px #0f0f0f;
   text-decoration: none;
   margin: 0 0.2rem;
-  padding: 1rem 2rem;
+  padding: 0.6rem 2rem;
   border-radius: 3px;
   -webkit-transition: 0.7s;
   transition: 0.7s;
