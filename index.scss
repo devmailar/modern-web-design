@@ -25,6 +25,14 @@ a {
   --heading-font-size-desktop: 6rem;
 }
 
+.dark {
+  background-color: rgb(12, 12, 12) !important;
+
+  h1 {
+    color: white;
+  }
+}
+
 .container {
   top: 0;
   max-width: 1400px;
@@ -87,11 +95,22 @@ header {
       font-family: "Poppins", sans-serif;
 
       a {
-        background-color: rgb(12, 12, 12);
+        background-color: rgb(18, 18, 18);
         color: rgb(255, 250, 250);
         box-shadow: 1px 3px 1.5px rgb(63, 116, 95);
         text-decoration: none;
         margin: 0 0.2rem;
+        padding: 1rem 2rem;
+        border-radius: 50px 0 150px 0;
+      }
+
+      #mode {
+        background-color: rgb(18, 18, 18);
+        color: rgb(255, 250, 250);
+        box-shadow: 1px 3px 1.5px rgb(63, 116, 95);
+        text-decoration: none;
+        margin: 0 0.2rem;
+        border: none;
         padding: 1rem 2rem;
         border-radius: 50px 0 150px 0;
       }
