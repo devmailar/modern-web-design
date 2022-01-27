@@ -65,6 +65,7 @@ header {
 
   .container {
     margin: 10rem 20rem;
+    width: 90vw;
 
     h1 {
       font-family: "Poppins", sans-serif;
@@ -96,18 +97,18 @@ section {
   background-color: rgb(12, 12, 12);
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1800px) {
   .container {
     margin: 3rem 2rem !important;
 
     h1 {
       font-size: var(--heading-font-size-600) !important;
-      width: auto !important;
+      width: 50rem !important;
     }
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   header {
     nav {
       padding: 2rem 0 5rem 0;
