@@ -157,7 +157,7 @@ footer .boot h1 {
 @media screen and (max-width: 600px) {
   header nav .spacing h1 {
     font-size: 2rem;
-    margin: 0.5rem 2rem;
+    margin: 0.7rem 2rem;
   }
   header .container {
     margin: 3rem 2rem !important;
