@@ -15,6 +15,7 @@ html {
 :root {
   --heading-font-size: 6rem;
   --heading-font-size-600: 4rem;
+  --heading-font-size-ios: 2.5rem;
 
   --heading-font-size-tablet: 6rem;
   --heading-font-size-desktop: 6rem;
@@ -119,12 +120,26 @@ section {
       }
     }
   }
+
   .container {
     margin: 3rem 2rem !important;
 
     h1 {
       font-size: var(--heading-font-size-600) !important;
       width: auto !important;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    .container {
+      margin: 3rem 2rem !important;
+
+      h1 {
+        font-size: var(--heading-font-size-ios) !important;
+        width: auto !important;
+      }
     }
   }
 }
