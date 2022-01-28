@@ -40,6 +40,11 @@ a {
   color: white !important;
 }
 
+.dark h1 span {
+  color: #0f0f0f !important;
+  background-color: white !important;
+}
+
 .dark button {
   color: white !important;
 }
@@ -57,8 +62,9 @@ a {
 }
 
 .dark .buttons a:hover {
-  background-color: #0f0f0f !important;
-  color: snow !important;
+  background-color: white !important;
+  color: black !important;
+  opacity: 0.8;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -127,7 +133,8 @@ header .container h1 {
 }
 
 header .container h1 span {
-  color: #3f745f;
+  color: #d4d4d4;
+  background-color: #0f0f0f;
 }
 
 header .container .buttons {
@@ -138,24 +145,19 @@ header .container .buttons {
 header .container .buttons a {
   background-color: #0f0f0f;
   color: snow;
-  -webkit-box-shadow: 0px 5px 5px #0f0f0f;
-          box-shadow: 0px 5px 5px #0f0f0f;
   text-decoration: none;
   margin: 0 0.2rem;
   padding: 0.6rem 2rem;
   border-radius: 3px;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 header .container .buttons a:hover {
-  background-color: snow;
-  color: #0f0f0f;
-  -webkit-box-shadow: 0px 5px 5px #0f0f0f;
-          box-shadow: 0px 5px 5px #0f0f0f;
-  font-weight: bold;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
+  background-color: black;
+  color: #e0dfdf;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 section {
