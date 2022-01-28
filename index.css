@@ -232,7 +232,7 @@ footer .boot h1 {
     padding: 0.8rem 0 5rem 0;
   }
   header nav .spacing {
-    max-width: 950px !important;
+    max-width: 750px !important;
   }
   header nav .spacing ul {
     display: none;
@@ -243,6 +243,54 @@ footer .boot h1 {
   .container h1 {
     font-size: var(--heading-font-size-600) !important;
     width: auto !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header nav {
+    padding: 0.8rem 0 5rem 0;
+  }
+  header nav .spacing {
+    max-width: 950px !important;
+  }
+  header nav .spacing ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  header nav {
+    padding: 0.8rem 0 5rem 0;
+  }
+  header nav .spacing {
+    max-width: 850px !important;
+  }
+  header nav .spacing ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  header nav {
+    padding: 0.8rem 0 5rem 0;
+  }
+  header nav .spacing {
+    max-width: 750px !important;
+  }
+  header nav .spacing ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  header nav {
+    padding: 0.8rem 0 5rem 0;
+  }
+  header nav .spacing {
+    max-width: 700px !important;
+  }
+  header nav .spacing ul {
+    display: none;
   }
 }
 
