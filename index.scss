@@ -34,9 +34,11 @@ a {
   background-color: rgb(12, 12, 12) !important;
 
   h1 {
+    transition: 1s;
     color: white !important;
 
     span {
+      transition: 0.5s;
       color: rgb(15, 15, 15) !important;
       background-color: white !important;
     }
@@ -131,8 +133,10 @@ header {
       font-family: "Poppins", sans-serif;
       font-size: var(--heading-font-size);
       width: 80rem;
+      transition: 1s;
 
       span {
+        transition: 0.5s;
         color: rgb(212, 212, 212);
         background-color: rgb(15, 15, 15);
       }
