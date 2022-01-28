@@ -203,6 +203,7 @@ footer .boot {
 footer .boot h1 {
   font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
+  font-weight: normal;
   color: #0c0c0c;
   text-align: center;
 }

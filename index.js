@@ -1,8 +1,10 @@
-let switcher = document.getElementById("mode")
 let bod = document.querySelector("body")
 
-switcher.addEventListener("click", function () {
-  bod.classList.toggle("dark")
-  bod.classList.toggle("transition")
-
+window.addEventListener('load', (event) => {
+  for (let i = 1; i < 10; i++) {
+    setTimeout(function timer() {
+     bod.classList.toggle("dark")
+     bod.classList.toggle("transition")
+    }, i * 4000);
+  }
 })
