@@ -196,7 +196,6 @@ footer {
 footer .boot {
   font-size: 2rem;
   color: snow;
-  float: left;
   margin-left: 5rem;
   margin: 1rem 5rem;
 }
@@ -205,8 +204,7 @@ footer .boot h1 {
   font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
   color: #0c0c0c;
-  float: left;
-  margin-left: 5rem;
+  text-align: center;
 }
 
 @media screen and (max-width: 1800px) {
